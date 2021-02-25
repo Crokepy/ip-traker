@@ -6,5 +6,9 @@ export async function pet(ip) {
   const ubi = data.location.region;
   const timeZone = data.location.timezone;
   const compañia = data.isp;
-  console.log(compañia);
+  return {
+    ubi,
+    timeZone,
+    compañia,
+  }; 
 }
