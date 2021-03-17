@@ -94,3 +94,32 @@
   border-radius: 8px;
   margin: 10%;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .input {
+    font-size: 20pt;
+  }
+
+  .button-start {
+    font-size: 20pt;
+  }
+
+  .isp,
+  .time-zone,
+  .location,
+  .adrs {
+    font-size: 19pt;
+  }
+
+  .isp-info,
+  .time-zone-info,
+  .location-info,
+  .adrs-info {
+    font-size: 25pt;
+  }
+
+  .req-container-info {
+    width: 80%;
+    padding-top: 7%;
+  }
+}
