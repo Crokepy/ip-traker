@@ -123,3 +123,66 @@
     padding-top: 7%;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .input {
+    border-radius: 5% 0% 0% 5%;
+    width: 30%;
+    margin-left: 33%;
+  }
+
+  .button-start {
+    width: 7%;
+    left: -17px;
+    background-color: black;
+    color: white;
+    border-radius: 8% 15% 15% 0%;
+  }
+
+  .req-container-info {
+    position: absolute;
+    top: 150px;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 40%;
+  }
+
+  .isp,
+  .time-zone,
+  .location,
+  .adrs {
+    font-size: 19pt;
+    position: absolute;
+  }
+
+  .isp-info,
+  .time-zone-info,
+  .location-info,
+  .adrs-info {
+    font-size: 25pt;
+  }
+
+  .adrs {
+    font-size: 15pt;
+    position: absolute;
+    top: 4px;
+  }
+
+  .adrs-info {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+  }
+
+  .location {
+    font-size: 15pt;
+    position: absolute;
+    top: 4px;
+    margin-left: 25%;
+  }
+  .location-info {
+    position: absolute;
+    margin-left: 240px;
+    top: 21%;
+  }
+}
