@@ -171,7 +171,7 @@
   .adrs-info {
     position: absolute;
     top: 30px;
-    left: 5%;
+    left: 1%;
   }
 
   .location {
@@ -182,7 +182,38 @@
   }
   .location-info {
     position: absolute;
-    margin-left: 240px;
+    margin-left: 270px;
     top: 21%;
   }
+
+  .time-zone {
+    font-size: 15pt;
+    position: absolute;
+    top: 4px;
+    margin-left: 480px;
+  }
+
+  .time-zone-info {
+    position: absolute;
+    margin-left: 480px;
+    top: 21%;
+  }
+
+  .isp {
+    font-size: 15pt;
+    position: absolute;
+    top: 4px;
+    margin-left: 730px;
+  }
+
+  .isp-info {
+    position: absolute;
+    margin-left: 690px;
+    top: 21%;
+  }
+}
+
+.by {
+  margin-left: 10px;
+  margin-top: 20%;
 }
