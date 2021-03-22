@@ -6,6 +6,7 @@ const ipOne = document.getElementById("ip-one");
 const locationInfo = document.getElementById("location-info");
 const utc = document.getElementById("utc");
 const isp = document.getElementById("isp");
+
 // require file
 import { pet } from "./fun.js";
 import { asemPage } from "./user.js";
